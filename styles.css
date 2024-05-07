@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.margin10 {
+  margin: 10px;
+}
+.left-right-padding {
+  padding: 0px 10px 0px 10px;
+}
+.main-page {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #3498db, #1abc9c);
+}
+.quote-card {
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.quote-box {
+  width: 100%;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+#quotes {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+#author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#author-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  width: 100%px;
+  height: 200px;
+}
